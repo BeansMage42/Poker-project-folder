@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Bot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Bot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bot.cpp",
+              "DocumentMoniker": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Bot.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Bot.cpp",
+              "ToolTip": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Bot.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\Bot.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T02:14:02.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cpp",
+              "DocumentMoniker": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\User.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\User.cpp",
+              "ToolTip": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\User.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\User.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T02:08:41.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Card.cpp",
+              "DocumentMoniker": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Card.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Card.cpp",
+              "ToolTip": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Card.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\Card.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T01:25:22.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dealer.cpp",
+              "DocumentMoniker": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Dealer.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Dealer.cpp",
+              "ToolTip": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Dealer.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\Dealer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T01:25:10.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Player.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Player.cpp",
+              "ToolTip": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\Player.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\Player.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T01:24:21.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\GameManager.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\GameManager.cpp",
+              "ToolTip": "C:\\Users\\kitte\\Documents\\GitHub\\Poker\u002B\u002B\\Poker\u002B\u002B\\GameManager.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\GameManager.cpp",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T01:24:10.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
