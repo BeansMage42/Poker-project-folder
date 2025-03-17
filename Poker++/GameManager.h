@@ -6,6 +6,5 @@ class GameManager
 {
 public:
 	void IncreasePot(int chips);
-	void NextTurn();
 	void PlayerOut();
 };
