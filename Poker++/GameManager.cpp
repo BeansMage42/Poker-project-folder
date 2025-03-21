@@ -55,6 +55,7 @@ private:
 	}
 	void NextTurn()// Jonah Gibson
 	{
+		//RenderTable();
 		//bool allChecked
 		//foreach(player in match){
 		//if(!player.hasChecked){
@@ -109,9 +110,28 @@ private:
 		// reset cards displayed
 		// deal new cards to playersInMatch
 		// deal new cards to communityCards
-		//
+		//NextTurn();
 
 	}
 
+	void RenderTable() //Ryan Dean
+	{
+		// render pairs of the back of card texture at the top and left sides of screen and place their number of chips and amount bet next to them
+		//for(int i = 0; i < cards
+		//for(int i = 0; i < 5;i++ )
+		// {
+		//		if(i < cardsDisplayed)
+		//      {
+		//			render front face from code of communityCards[i]
+		//      }
+		//		else
+		//		{
+		//			render back face texture
+		//		}
+		//	
+		// }
+		//type pot amount
+		//render players hand cards at bottom and type out instructions for next move
+	}
 	
 };
