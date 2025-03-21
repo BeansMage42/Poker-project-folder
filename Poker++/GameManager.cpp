@@ -78,7 +78,27 @@ private:
 	}
 	void CheckWinner()
 	{
-	
+		// card cards[7];
+
+		// int highestScore;
+		// for (int i = 0; i < 5; i++)
+		// {
+		// 	cards[i] = communityCards[i];
+		// }
+		// foreach(playersInMatch)
+		// {
+		// 	//sets cards 6 and 7 to the current hand of the plalyer
+		//
+			// checks for flushes
+		// 	// sorts cards and checks for straights and flushes
+			// checks for duplicate cards
+
+			// adds the values of the hands
+			// compare to the previous highestScore and if its higher set this score to the highest score
+		
+		// }
+		// highest score is te winner
+		
 	}
 	void NextMatch()//Jonah Gibson
 	{
