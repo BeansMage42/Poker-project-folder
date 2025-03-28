@@ -1,12 +1,16 @@
 
 using namespace std;
-using namespace Game;
+
+
 #include <algorithm>    // std::random_shuffle
 #include <memory>
 #include <random>
+#include <vector>
+#include <algorithm>
 #include "Player.h"
 #include "GameManager.h"
 #include "Dealer.h"
+#include "Card.h"
 
 class GameManager 
 {
@@ -30,8 +34,8 @@ public:
 
 private:
 
-	std::unique_ptr<Player> players[4];//all the players in the current match that havent folded
-	Card communityCards[5];//stores info of cards in the center
+	std::unique_ptr<Card> communityCards[5];//stores info of cards in the center
+	//Card communityCards[5];//stores info of cards in the center
 	Dealer* dealer;
 	int playersChecked;//how many players have called check
 	int cardsDisplayed;// how many cards are being displayed in the center
@@ -151,10 +155,126 @@ private:
 		// highest score is te winner
 		
 	}
-	int score(Card* hand)
+	float Score(Card* hand)
 	{
-
+		if (CheckRoyaleFlush(hand)) return 10 + HighCard(hand);
+		if (CheckForStraights(hand) && CheckForFlush(hand)) return 9 + HighCard(hand);
+		if (CheckForPairs(hand) == 4) return 8 + HighCard(hand);
+		if (CheckForPairs(hand) == -10) return 7 + HighCard(hand);
+		if (CheckForFlush(hand)) return 6 + HighCard(hand);
+		if (CheckForStraights(hand)) return 5 + HighCard(hand);
+		if (CheckForPairs(hand) == 3) return 4 + HighCard(hand);
+		if (CheckForPairs(hand) == 2) return 3 + HighCard(hand);
+		if (CheckForPairs(hand) == 1) return 2 + HighCard(hand);
+		return 1 + HighCard(hand);
 	}
+
+	bool CheckForFlush(Card* hand)
+	{
+		int size = sizeof(communityCards) / sizeof(communityCards[0]);
+
+		vector<Card> cardsToScore(communityCards, communityCards + size);
+
+		// Add two more elements
+		cardsToScore.push_back(hand[0]);
+		cardsToScore.push_back(hand[1]);
+
+		for (int i = 0; i < size; i++)
+		{
+			int count = 0;
+			for (int j = 0; j < size; j++)
+			{
+				if (cardsToScore[i] == cardsToScore[j]) count++;
+			}
+            
+			if (count >= 5) return true;
+		}
+
+		return false;
+	}
+
+	int CheckForPairs(Card* hand)
+	{
+		int size = sizeof(communityCards) / sizeof(communityCards[0]);
+
+		vector<Card> cardsToScore(communityCards, communityCards + size);
+
+		int highestCount = 0;
+
+		// Add two more elements
+		cardsToScore.push_back(hand[0]);
+		cardsToScore.push_back(hand[1]);
+
+		for (int i = 0; i < size; i++)
+		{
+			int count = 0;
+			for (int j = 0; j < size; j++)
+			{
+				if (cardsToScore[i] == cardsToScore[j]) count++;
+			}
+            
+			if (highestCount == 3 && count == 2) return -10;
+			if (highestCount == 2 && count == 3) return -10;
+			if (count >= highestCount) highestCount = count;
+		}
+		return highestCount;
+	}
+
+	bool CheckForStraights(Card* hand)
+	{
+		int size = sizeof(communityCards) / sizeof(communityCards[0]);
+
+		vector<Card> cardsToScore(communityCards, communityCards + size);
+
+		cardsToScore.push_back(hand[0]);
+		cardsToScore.push_back(hand[1]);
+		
+		sort(cardsToScore.begin(), cardsToScore.end());
+
+		int count = 0;
+		for (int i = 0; i < size - 1; i++)
+		{
+			if (cardsToScore[i] == (cardsToScore[i + 1] - 1))
+			{
+				count++;
+			}
+			else
+			{
+				count = 0;
+			}
+            
+			if (count >= 4) return true;
+		}
+
+		return false;
+	}
+
+
+	bool CheckRoyaleFlush(Card* hand)
+	{
+		int size = sizeof(communityCards) / sizeof(communityCards[0]);
+
+		vector<Card> cardsToScore(communityCards, communityCards + size);
+
+		cardsToScore.push_back(hand[0]);
+		cardsToScore.push_back(hand[1]);
+
+		if (!CheckForFlush(hand)) return false;
+		if (!CheckForStraights(hand)) return false;
+        
+		sort(cardsToScore.begin(), cardsToScore.end());
+		
+		if (cardsToScore.end != 12) return false;
+		return true;
+	}
+
+	float HighCard(Card* hand)
+	{
+		int highCard = -1;
+
+		return hand[0].value > hand[1].value ? hand[0].value * 0.01f: hand[1].value * 0.01f;
+	}
+	
 
 	void NextMatch()//Jonah Gibson
 	{

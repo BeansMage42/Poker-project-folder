@@ -8,5 +8,12 @@ class GameManager
 public:
 	void IncreasePot(int chips);
 	void PlayerOut();
-	int Score(Card* hand);
+	float Score(Card* hand);
+	bool CheckForFlush();
+	bool CheckForStraight();
+	bool CheckForRoyalFlush();
+	bool CheckForFullHouse();
+	bool CheckForPair();
+	bool CheckForHighCard();
+	void CheckForWinner();
 };
