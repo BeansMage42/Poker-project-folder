@@ -1,339 +1,95 @@
-﻿  Card.cpp
+﻿  Bot.cpp
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,9): error C3646: 'cardTexture': unknown override specifier
+  (compiling source file 'Bot.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Bot.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(3,17): error C2871: 'Game': a namespace with this name does not exist
+  (compiling source file 'Bot.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(3,17): error C2065: 'Game': undeclared identifier
+  (compiling source file 'Bot.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.h(2,7): error C2011: 'Card': 'class' type redefinition
+  (compiling source file 'Bot.cpp')
+      C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(1,8):
+      see declaration of 'Card'
+  
+  Card.cpp
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,9): error C3646: 'cardTexture': unknown override specifier
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   Dealer.cpp
-C:\Users\kitte\Documents\GitHub\Poker++\Poker++\Card.cpp(5,9): error C3646: 'cardTexture': unknown override specifier
-C:\Users\kitte\Documents\GitHub\Poker++\Poker++\Card.cpp(5,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\kitte\Documents\GitHub\Poker++\Poker++\Card.cpp(5,9): error C3646: 'cardTexture': unknown override specifier
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.h(6,8): error C3646: 'cardTexture': unknown override specifier
   (compiling source file 'Dealer.cpp')
   
-C:\Users\kitte\Documents\GitHub\Poker++\Poker++\Card.cpp(5,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.h(6,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'Dealer.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Dealer.cpp(6,7): error C2011: 'Dealer': 'class' type redefinition
+      C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Dealer.h(4,7):
+      see declaration of 'Dealer'
   
   GameManager.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\sal.h(2361,8): error C2059: syntax error: 'string'
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.cpp(3,17): error C2871: 'Game': a namespace with this name does not exist
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.cpp(3,17): error C2065: 'Game': undeclared identifier
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,9): error C3646: 'cardTexture': unknown override specifier
   (compiling source file 'GameManager.cpp')
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\sal.h(2361,12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   (compiling source file 'GameManager.cpp')
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\concurrencysal.h(22,8): error C2059: syntax error: 'string'
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(3,17): error C2871: 'Game': a namespace with this name does not exist
   (compiling source file 'GameManager.cpp')
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\concurrencysal.h(22,12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(3,17): error C2065: 'Game': undeclared identifier
   (compiling source file 'GameManager.cpp')
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vadefs.h(51,8): error C2059: syntax error: 'string'
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.h(2,7): error C2011: 'Card': 'class' type redefinition
   (compiling source file 'GameManager.cpp')
+      C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(1,8):
+      see declaration of 'Card'
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vadefs.h(51,12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vadefs.h(171,12): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vadefs.h(172,5): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime.h(96,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime.h(96,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdint(20,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdint(20,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt.h(125,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt.h(125,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math.h(18,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_malloc.h(17,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_malloc.h(17,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stddef.h(18,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stddef.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_search.h(20,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_search.h(20,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdlib.h(17,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdlib.h(17,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits.h(16,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits.h(16,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(22,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(22,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdlib(36,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdlib(36,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\float.h(19,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\float.h(19,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_stdio_config.h(16,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_stdio_config.h(16,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_stdio_config.h(72,21): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdio.h(19,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdio.h(19,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h(19,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h(19,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdio(29,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstdio(29,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\errno.h(18,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\errno.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_string.h(17,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_string.h(17,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_memcpy_s.h(18,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_memcpy_s.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wconio.h(18,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wconio.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wctype.h(17,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wctype.h(17,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wdirect.h(17,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wdirect.h(17,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wio.h(18,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wio.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wprocess.h(17,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wprocess.h(17,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstring.h(20,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstring.h(20,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wtime.h(17,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wtime.h(17,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\sys\stat.h(17,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\sys\stat.h(17,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\wchar.h(33,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\wchar.h(33,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cwchar(22,19): error C2061: syntax error: identifier 'mbstate_t'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cwchar(25,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xtr1common(24,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xtr1common(24,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\intrin0.inl.h(28,8): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\intrin0.inl.h(28,12): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits(24,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\limits(24,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_new.h(17,8): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_new.h(17,14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_new_debug.h(16,8): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_new_debug.h(16,14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\crtdbg.h(19,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\crtdbg.h(19,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals.h(141,9): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals.h(145,9): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals.h(156,9): warning C4384: #pragma 'detect_mismatch' should only be used at global scope
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals.h(334,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\yvals.h(334,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstddef(27,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstddef(27,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstddef(102,12): error C2039: 'max_align_t': is not a member of 'std'
-  (compiling source file 'GameManager.cpp')
-      C:\Users\kitte\Documents\GitHub\Poker++\Poker++\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cstddef(102,1): error C2873: 'max_align_t': symbol cannot be used in a using-declaration
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(29,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(29,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\exception(21,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\exception(21,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\malloc.h(19,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\malloc.h(19,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_terminate.h(18,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_terminate.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\eh.h(22,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\eh.h(22,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_exception.h(25,1): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_exception.h(25,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_exception.h(45,8): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vcruntime_exception.h(45,14): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\exception(36,1): error C2059: syntax error: 'namespace'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\exception(36,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\exception(210,8): error C2059: syntax error: 'string'
-  (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\exception(210,8): error C1003: error count exceeds 100; stopping compilation
-  (compiling source file 'GameManager.cpp')
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.cpp(11,7): error C2011: 'GameManager': 'class' type redefinition
+      C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(6,7):
+      see declaration of 'GameManager'
   
   Player.cpp
-C:\Users\kitte\Documents\GitHub\Poker++\Poker++\Card.cpp(5,9): error C3646: 'cardTexture': unknown override specifier
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Player.cpp(2,17): error C2871: 'Game': a namespace with this name does not exist
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Player.cpp(2,17): error C2065: 'Game': undeclared identifier
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(3,17): error C2871: 'Game': a namespace with this name does not exist
   (compiling source file 'Player.cpp')
   
-C:\Users\kitte\Documents\GitHub\Poker++\Poker++\Card.cpp(5,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(3,17): error C2065: 'Game': undeclared identifier
   (compiling source file 'Player.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,9): error C3646: 'cardTexture': unknown override specifier
+  (compiling source file 'Player.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Player.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.h(2,7): error C2011: 'Card': 'class' type redefinition
+  (compiling source file 'Player.cpp')
+      C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(1,8):
+      see declaration of 'Card'
+  
+  User.cpp
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,9): error C3646: 'cardTexture': unknown override specifier
+  (compiling source file 'User.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(5,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'User.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(3,17): error C2871: 'Game': a namespace with this name does not exist
+  (compiling source file 'User.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\GameManager.h(3,17): error C2065: 'Game': undeclared identifier
+  (compiling source file 'User.cpp')
+  
+C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.h(2,7): error C2011: 'Card': 'class' type redefinition
+  (compiling source file 'User.cpp')
+      C:\Users\foxtr\OneDrive\Documents\Poker-project-folder\Poker++\Card.cpp(1,8):
+      see declaration of 'Card'
   
   Generating Code...

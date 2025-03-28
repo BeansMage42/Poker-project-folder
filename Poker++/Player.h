@@ -23,6 +23,7 @@ namespace Game {
         Card* GetHand();             // Return the player's current hand
         void addChips(int chipsAdd); // Add chips to player's total
         int GetChips();              // Return player's chip count
+        void Reset();               //Return character to base set
 
     protected:
         // Protected method declarations (for player actions)

@@ -45,15 +45,9 @@ private:
 	void CheckWinner();
 	void NextMatch();
 	//sections of this code is taken from jonah gibsons midterm
+
 	int main() {
-		dealer = new Dealer();
-		players[0] = std::make_unique<User>(dealer -> DrawCard());
-
-		for (int x = 1; x < 4; x++)
-		{
-
-			players[x] = std::make_unique<Bot>(dealer->DrawCard());
-		}
+		StartGame();
 		Card* ptr;
 		for (activePlayer; activePlayer < 4; activePlayer++)
 		{
@@ -83,17 +77,22 @@ private:
 
 		}
 		std::cout << "the ending pot is " << pot << endl;
-
-
 		return 0;
 	}
 	//implimentations
-	void StartGame()//Jonah Gibson
+	void StartGame()//Ryan Dean
 	{
-		//foreach(player in round) reset all their variables to the defaults
-		//reset deck to defaults
-		//reset pot, highest bid and active players
-	
+		pot = 0;
+		highestBet = 0;
+		activePlayer = 0;
+		for (auto&& p : players) p->Reset();
+		dealer = new Dealer();
+		players[0] = std::make_unique<User>(dealer->DrawCard());
+
+		for (int x = 1; x < 4; x++)
+		{
+			players[x] = std::make_unique<Bot>(dealer->DrawCard());
+		}
 	}
 	void DealNextCard()//Jonah Gibson
 	{
@@ -102,29 +101,31 @@ private:
 
 	
 	}
-	void NextTurn()// Jonah Gibson
+	void NextTurn()// Ryan Dean
 	{
-		//RenderTable();
-		//bool allChecked
-		//foreach(player in match){
-		//if(!player.hasChecked){
-		// allChecked = false
-		// break;
-		// 
-		// }
-		// else allChecked = true
-		//}
-		// 
-		//if(allChecked) DealNextCard();
-		//
-		// if(cardsDisplayed == 5 || activePlayers == 1) CheckWinner();
-		// 
-		// else{
-		//activePlayer = (activePlayer + 1) % numOfPlayers
-		//PlayersInMatch[activePlayer].SetActive();
-		//}
-
-
+		bool allChecked;
+		for(auto&& p:players)
+		{
+			if (!p->hasChecked)
+			{
+				allChecked = false;
+				break;
+			}
+			else
+			{
+				allChecked = true;
+			}
+		}
+		
+		if(allChecked) DealNextCard();
+		
+		if(cardsDisplayed == 5 || activePlayer == numOfPlayers-1) CheckWinner();
+		 
+		else
+		{
+			activePlayer = (activePlayer + 1) % numOfPlayers;
+			players[activePlayer]->SetActive();
+		}
 	}
 	void CheckWinner()
 	{
@@ -167,25 +168,4 @@ private:
 		//NextTurn();
 
 	}
-
-	void RenderTable() //Ryan Dean
-	{
-		// render pairs of the back of card texture at the top and left sides of screen and place their number of chips and amount bet next to them
-		//for(int i = 0; i < cards
-		//for(int i = 0; i < 5;i++ )
-		// {
-		//		if(i < cardsDisplayed)
-		//      {
-		//			render front face from code of communityCards[i]
-		//      }
-		//		else
-		//		{
-		//			render back face texture
-		//		}
-		//	
-		// }
-		//type pot amount
-		//render players hand cards at bottom and type out instructions for next move
-	}
-	
 };

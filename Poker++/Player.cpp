@@ -76,6 +76,17 @@ public:
         // Provide current chip total for display or game logic
     }
 
+    void Reset() {
+        chips = 0;
+        chipsBet = 0;
+        highestBid = 0;
+        highestBidThisRound = 0;
+        isActive = false;
+        hasChecked = false;
+        hasFolded = false;
+        hasChecked = false;
+    }
+
 
 // protected methods were refined and partly developed by Eugenio Morales, alongside any bug fixes of Jonah's base segments
 protected:
