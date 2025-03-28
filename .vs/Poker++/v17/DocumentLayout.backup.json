@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\",
   "Documents": [
     {
@@ -41,6 +42,49 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Bot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Bot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -50,6 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 9,
           "Children": [
             {
@@ -59,6 +104,21 @@
               "DocumentMoniker": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.h",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Dealer.h",
               "ToolTip": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.h",
+=======
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Dealer.h",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.h",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Dealer.h",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Poker\u002B\u002B\\Dealer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -66,11 +126,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Card.h",
               "DocumentMoniker": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Card.h",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Card.h",
               "ToolTip": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Card.h",
+=======
+              "DocumentIndex": 6,
+              "Title": "Card.h",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Card.h",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Card.h",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Card.h",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Poker\u002B\u002B\\Card.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -78,6 +146,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Player.h",
@@ -109,11 +178,21 @@
               "ToolTip": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Bot.cpp",
               "RelativeToolTip": "Poker\u002B\u002B\\Bot.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+=======
+              "DocumentIndex": 4,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Player.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Player.cpp",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Player.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\Player.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADkAAAAiAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-14T02:14:02.815Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
               "Title": "User.cpp",
               "DocumentMoniker": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\User.cpp",
@@ -131,6 +210,65 @@
               "DocumentMoniker": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Card.cpp",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Card.cpp",
               "ToolTip": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Card.cpp",
+=======
+              "DocumentIndex": 1,
+              "Title": "Bot.cpp",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Bot.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Bot.cpp",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Bot.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\Bot.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T02:14:02.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cpp",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\User.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\User.cpp",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\User.cpp",
+              "RelativeToolTip": "Poker\u002B\u002B\\User.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T02:08:41.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Player.h",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Player.h",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Player.h",
+              "RelativeToolTip": "Poker\u002B\u002B\\Player.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-14T17:08:02.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.h",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\GameManager.h",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\GameManager.h",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\GameManager.h",
+              "RelativeToolTip": "Poker\u002B\u002B\\GameManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-14T17:01:22.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Card.cpp",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Card.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Card.cpp",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Card.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Poker\u002B\u002B\\Card.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -138,11 +276,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "Dealer.cpp",
               "DocumentMoniker": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.cpp",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Dealer.cpp",
               "ToolTip": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.cpp",
+=======
+              "DocumentIndex": 7,
+              "Title": "Dealer.cpp",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\Dealer.cpp",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\Dealer.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Poker\u002B\u002B\\Dealer.cpp",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -150,6 +296,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\Player.cpp",
@@ -167,6 +314,13 @@
               "DocumentMoniker": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\GameManager.cpp",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\GameManager.cpp",
               "ToolTip": "C:\\Users\\foxtr\\OneDrive\\Documents\\Poker-project-folder\\Poker\u002B\u002B\\GameManager.cpp",
+=======
+              "DocumentIndex": 5,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\GameManager.cpp",
+              "RelativeDocumentMoniker": "Poker\u002B\u002B\\GameManager.cpp",
+              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documentos\\GitHub\\Poker-project-folder\\Poker\u002B\u002B\\GameManager.cpp",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Poker\u002B\u002B\\GameManager.cpp",
               "ViewState": "AgIAACgAAAAAAAAAAAAjwDsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

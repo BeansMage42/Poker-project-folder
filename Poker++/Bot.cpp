@@ -1,7 +1,8 @@
 using namespace std;
+using namespace Game;
 #include "Player.h"
 
-class Bot {
+class Bot: public Player {
 	public:
 		string name;
 		float confidence;
@@ -24,5 +25,12 @@ class Bot {
 					Call()
 				}
 			*/
+		}
+
+
+		// Inspired by Jonah Gibson's code and adapted by Eugenio Morales
+		Bot(Card card1, Card card2) : Player(card1, card2)
+		{
+			cout << name << "Bot Initialized \n";
 		}
 };

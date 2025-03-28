@@ -55,6 +55,20 @@ public:
 
     }
 
+    // Inspired by Jonah Gibson's code and adapted by Eugenio Morales
+    Player(Card card1, Card card2)
+    {
+        currentHand[0] = card1;
+        currentHand[1] = card2;
+        hasChecked = false;
+        hasFolded = false;
+        chipsBet = 5;
+        chips = 100;
+        highestBidThisRound = 5;
+
+        cout << "Player" << isActive << "Initialized \n";
+    }
+
     void SetHand(Card hand[2]) {
         currentHand[0] = hand[0];
         currentHand[1] = hand[1];

@@ -1,7 +1,10 @@
 using namespace std;
+using namespace Game;
 #include "Player.h"
 #include <iostream>
-class User  {
+#include <string>
+
+class User: public Player  {
 public:
 	void Input()
 	{
@@ -20,4 +23,14 @@ public:
 		//if player presses esc
 			//Quit application
 	}
+
+	// Inspired by Jonah Gibson's code and adapted by Eugenio Morales
+	User(Card card1, Card card2) : Player(card1, card2) 
+	{
+		name = "Player 1";
+		cout << "User Initialized \n";
+	}
+
+
+
 };
