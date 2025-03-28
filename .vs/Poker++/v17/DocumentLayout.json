@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Bot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Bot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Bot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Bot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Dealer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -41,6 +37,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CCBCAA2-E6B0-4FA0-9144-E1B560F3EC12}|Poker\u002B\u002B\\Poker\u002B\u002B.vcxproj|solutionrelative:Poker\u002B\u002B\\Dealer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Dealer.h",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Dealer.h",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Dealer.h",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Dealer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-14T17:20:43.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:20:43.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Card.h",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Card.h",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Card.h",
@@ -79,59 +78,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Player.h",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Player.h",
               "ToolTip": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Player.h",
               "RelativeToolTip": "Poker\u002B\u002B\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-14T17:08:02.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GameManager.h",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\GameManager.h",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\GameManager.h",
               "ToolTip": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\GameManager.h",
               "RelativeToolTip": "Poker\u002B\u002B\\GameManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-14T17:01:22.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Bot.cpp",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Bot.cpp",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Bot.cpp",
               "ToolTip": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Bot.cpp",
               "RelativeToolTip": "Poker\u002B\u002B\\Bot.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-14T02:14:02.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "User.cpp",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\User.cpp",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\User.cpp",
               "ToolTip": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\User.cpp",
               "RelativeToolTip": "Poker\u002B\u002B\\User.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-14T02:08:41.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Card.cpp",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Card.cpp",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Card.cpp",
@@ -139,12 +138,11 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Card.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T01:25:22.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T01:25:22.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Dealer.cpp",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\Dealer.cpp",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\Dealer.cpp",
@@ -152,8 +150,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Dealer.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T01:25:10.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T01:25:10.496Z"
             },
             {
               "$type": "Document",
@@ -170,13 +167,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameManager.cpp",
               "DocumentMoniker": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\GameManager.cpp",
               "RelativeDocumentMoniker": "Poker\u002B\u002B\\GameManager.cpp",
               "ToolTip": "C:\\Users\\kitte\\Desktop\\school work\\CC\u002B\u002B\\C\u002B\u002Basignment 1\\Poker\u002B\u002B project folder\\Poker\u002B\u002B\\GameManager.cpp",
               "RelativeToolTip": "Poker\u002B\u002B\\GameManager.cpp",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAHQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAGkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-14T01:24:10.282Z",
               "EditorCaption": ""

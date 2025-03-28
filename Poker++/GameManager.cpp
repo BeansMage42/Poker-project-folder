@@ -1,5 +1,9 @@
 
 using namespace std;
+using namespace Game;
+#include <algorithm>    // std::random_shuffle
+#include <memory>
+#include <random>
 #include "GameManager.h"
 
 class GameManager 
@@ -38,6 +42,77 @@ private:
 	void DealNextCard();
 	void CheckWinner();
 	void NextMatch();
+
+	int main() {
+		using namespace Game;
+
+
+		int deck[52];
+		int activePlayer = 0;
+		int highestBet = 5;
+		int currentPot = 20;
+		int commCards[5];
+		int deckDepth = 0;
+		//creates an array of ints from 0-51
+		for (int i = 0; i < 52; i++)
+		{
+			deck[i] = i;
+		}
+		//the ability to shuffle the deck was found here https://stackoverflow.com/questions/14720134/is-it-possible-to-random-shuffle-an-array-of-int-elements
+		std::random_device rd;   //when i couldnt figure out why the deck would have duplicate cards using the stack overflow method, I asked chatgpt for help https://chatgpt.com/share/67e20dfb-68ac-8006-b542-35dc1d2be754
+		std::mt19937 rng(rd());
+		//shuffles the deck
+		std::shuffle(std::begin(deck), std::end(deck), rng);
+
+		//grabs the top 5 cards of the deck
+		for (deckDepth; deckDepth < 5; deckDepth++)
+		{
+			commCards[deckDepth] = deck[deckDepth];
+		}
+
+		//this reddit comment helped me figure out how to make an array using unique pointers https://www.reddit.com/r/learnprogramming/comments/lp15tn/comment/go8rtdg/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+		std::unique_ptr<Player> players[4];
+
+		players[0] = std::make_unique<User>(deck[deckDepth++], deck[deckDepth++]);
+
+		for (int x = 1; x < 4; x++)
+		{
+
+			players[x] = std::make_unique<Bot>(x, deck[deckDepth++], deck[deckDepth++]);
+		}
+		int* ptr;
+		for (activePlayer; activePlayer < 4; activePlayer++)
+		{
+			ptr = players[activePlayer]->GetHand();
+			std::cout << "\n it is " << players[activePlayer]->name << "'s turn";
+			std::cout << "\n Current pot = " << currentPot;
+			std::cout << "\n Revealed cards are: ";
+			for (int card : commCards)
+			{
+				std::cout << EvaluateCard(card) << " , ";
+			}
+			std::cout << "\n Your hand is: " << EvaluateCard(ptr[0]) << " and " << EvaluateCard(ptr[1]);
+			std::cout << "\n the highest bet this round is " << highestBet << "\n";
+
+			int bet = players[activePlayer]->PlayerTurn(highestBet);
+			if (bet > highestBet) highestBet = bet;
+			//recalculates the total chips bet this round
+			//done this way so the player class wont need a reference to the main class
+			//and so that the highest bet can be recorded easier
+			int temp = 0;
+			for (int a = 0; a < 4; a++)
+			{
+
+				temp += players[a]->chipBetThisRound;
+			}
+			currentPot = temp;
+
+		}
+		std::cout << "the ending pot is " << currentPot << endl;
+
+
+		return 0;
+	}
 	//implimentations
 	void StartGame()//Jonah Gibson
 	{
