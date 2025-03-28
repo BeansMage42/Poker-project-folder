@@ -3,9 +3,14 @@
 #include "GameManager.h"   // Include GameManager for interaction with the game
 #include <iostream>
 #include <string>
+
+// Player.cpp and player.h were primarily developed by Eugenio Morales
+
+
 namespace Game {
     class Player {
     public:
+        string name;
         static Card currentHand[2];  // Player's two private cards
         bool isActive;               // Indicates if it's this player's turn
         bool hasChecked;             // Tracks if player has checked this round

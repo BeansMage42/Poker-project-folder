@@ -4,6 +4,7 @@ using namespace Game;
 #include <algorithm>    // std::random_shuffle
 #include <memory>
 #include <random>
+#include "Player.h"
 #include "GameManager.h"
 
 class GameManager 
@@ -103,7 +104,7 @@ private:
 			for (int a = 0; a < 4; a++)
 			{
 
-				temp += players[a]->chipBetThisRound;
+				temp += players[a]->chipsBet;
 			}
 			currentPot = temp;
 
