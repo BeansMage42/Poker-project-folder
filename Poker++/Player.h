@@ -24,7 +24,11 @@ namespace Game {
         void addChips(int chipsAdd); // Add chips to player's total
         int GetChips();              // Return player's chip count
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         void Reset();               //Return character to base set
+=======
+        Player(Card card1, Card card2);
+>>>>>>> Stashed changes
 =======
         Player(Card card1, Card card2);
 >>>>>>> Stashed changes
