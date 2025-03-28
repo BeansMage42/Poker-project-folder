@@ -50,11 +50,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -66,8 +70,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Dealer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-14T17:20:43.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:20:43.99Z"
             },
             {
               "$type": "Document",
@@ -79,8 +82,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Card.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-14T17:09:19.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:09:19.768Z"
             },
             {
               "$type": "Document",
@@ -105,8 +107,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-14T17:08:02.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:08:02.893Z"
             },
             {
               "$type": "Document",
@@ -118,8 +119,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\GameManager.cpp",
               "ViewState": "AgIAAE4AAAAAAAAAAAAAAGEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T01:24:10.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T01:24:10.282Z"
             },
             {
               "$type": "Document",
@@ -131,8 +131,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\GameManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-14T17:01:22.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T17:01:22.807Z"
             },
             {
               "$type": "Document",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Bot.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T02:14:02.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T02:14:02.815Z"
             },
             {
               "$type": "Document",
@@ -157,8 +155,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\User.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T02:08:41.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T02:08:41.729Z"
             },
             {
               "$type": "Document",
@@ -170,8 +167,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Card.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T01:25:22.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T01:25:22.468Z"
             },
             {
               "$type": "Document",
@@ -183,8 +179,7 @@
               "RelativeToolTip": "Poker\u002B\u002B\\Dealer.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T01:25:10.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T01:25:10.496Z"
             }
           ]
         }

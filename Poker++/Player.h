@@ -19,7 +19,7 @@ namespace Game {
 
         // Public method declarations
         int SetActive();            // Set this player as the active one
-        void SetHand(Card[2]);       // Assign the player's two cards
+        void SetHand(Card*);       // Assign the player's two cards
         Card* GetHand();             // Return the player's current hand
         void addChips(int chipsAdd); // Add chips to player's total
         int GetChips();              // Return player's chip count

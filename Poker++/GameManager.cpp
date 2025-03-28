@@ -177,6 +177,11 @@ private:
 		// highest score is te winner
 		
 	}
+	int score(Card* hand)
+	{
+
+	}
+
 	void NextMatch()//Jonah Gibson
 	{
 		//foreach(playerInRound) if(playerInRound.chips > 0) add to playersInRound
