@@ -47,7 +47,7 @@ public:
 
     }
 
-    void SetHand(Card hand[2]) {
+    void SetHand(Card* hand) {
         // currentHand[0] = hand[0]
         // currentHand[1] = hand[1]
         // Assign the two cards to this player's hand
