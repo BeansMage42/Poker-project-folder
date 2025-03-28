@@ -23,20 +23,10 @@ namespace Game {
         Card* GetHand();             // Return the player's current hand
         void addChips(int chipsAdd); // Add chips to player's total
         int GetChips();              // Return player's chip count
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        void Reset();               //Return character to base set
-=======
-        Player(Card card1, Card card2);
->>>>>>> Stashed changes
-=======
-        Player(Card card1, Card card2);
->>>>>>> Stashed changes
-=======
-        Player(Card card1, Card card2);
->>>>>>> Stashed changes
 
+        void Reset();               //Return character to base set
+
+        Player(Card card1, Card card2);
     protected:
         // Protected method declarations (for player actions)
         int Check();                // Player opts to check
