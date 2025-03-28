@@ -13,7 +13,7 @@ namespace Game {
         int chipsBet;                // Chips bet in the current round
 
         // Public method declarations
-        void SetActive();            // Set this player as the active one
+        int SetActive();            // Set this player as the active one
         void SetHand(Card[2]);       // Assign the player's two cards
         Card* GetHand();             // Return the player's current hand
         void addChips(int chipsAdd); // Add chips to player's total
@@ -21,10 +21,10 @@ namespace Game {
 
     protected:
         // Protected method declarations (for player actions)
-        void Check();                // Player opts to check
-        void Raise(int amount);      // Player increases the bet
-        void Call();                 // Player matches the current bet
-        void Fold();                 // Player forfeits the hand
+        int Check();                // Player opts to check
+        int Raise(int amount);      // Player increases the bet
+        int Call();                 // Player matches the current bet
+        int Fold();                 // Player forfeits the hand
     };
 
     class Bot:public Player

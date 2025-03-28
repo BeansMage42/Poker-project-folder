@@ -42,7 +42,7 @@ private:
 	void DealNextCard();
 	void CheckWinner();
 	void NextMatch();
-
+	//sections of this code is taken from jonah gibsons midterm
 	int main() {
 		using namespace Game;
 
