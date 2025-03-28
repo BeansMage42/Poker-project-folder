@@ -23,8 +23,10 @@ namespace Game {
         Card* GetHand();             // Return the player's current hand
         void addChips(int chipsAdd); // Add chips to player's total
         int GetChips();              // Return player's chip count
+
         void Reset();               //Return character to base set
 
+        Player(Card card1, Card card2);
     protected:
         // Protected method declarations (for player actions)
         int Check();                // Player opts to check
@@ -33,13 +35,17 @@ namespace Game {
         int Fold();                 // Player forfeits the hand
     };
 
+    // Inspired by Jonah Gibson's code and adapted by Eugenio Morales
     class Bot:public Player
     {
-
+        Bot(Card card1, Card card2);
     };
+
+    // Inspired by Jonah Gibson's code and adapted by Eugenio Morales
     class User :public Player
     {
         void Input();
+        User(Card card1, Card card2);
     };
 }
 

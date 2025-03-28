@@ -1,6 +1,6 @@
 #pragma once
-#include <list>
 using namespace Game;
+#include <list>
 #include "Player.h"
 #include "Card.h"
 class GameManager
