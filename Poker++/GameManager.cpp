@@ -314,8 +314,6 @@ bool GameManager::CheckRoyaleFlush(Card* hand)
 	cardsToScore.push_back(hand[0].value);
 	cardsToScore.push_back(hand[1].value);
 
-	sort(cardsToScore.begin(), cardsToScore.end());
-
 	if (!CheckForFlush(hand)) return false;
 	if (!CheckForStraights(hand)) return false;
 
