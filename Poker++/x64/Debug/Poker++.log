@@ -1,204 +1,27 @@
 ﻿  GameManager.cpp
-C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(165,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,20):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
-      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
-      the template instantiation context (the oldest one first) is
-          C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,7):
-          see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,GameManager::CheckForStraights::<lambda_1>>(const _RanIt,const _RanIt,_Pr)' being compiled
-          with
-          [
-              _Ty=Game::Card,
-              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Game::Card>>>,
-              _Pr=GameManager::CheckForStraights::<lambda_1>
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8388,10):
-          see reference to function template instantiation 'void std::_Sort_unchecked<Game::Card*,_Fn>(_RanIt,_RanIt,__int64,_Pr)' being compiled
-          with
-          [
-              _Fn=GameManager::CheckForStraights::<lambda_1>,
-              _RanIt=Game::Card *,
-              _Pr=GameManager::CheckForStraights::<lambda_1>
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8358,18):
-          see reference to function template instantiation '_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)' being compiled
-          with
-          [
-              _BidIt=Game::Card *,
-              _RanIt=Game::Card *,
-              _Pr=GameManager::CheckForStraights::<lambda_1>
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8233,17):
-          see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,Game::Card&,Game::Card&>(GameManager::CheckForStraights::<lambda_1>&,_Ty1,_Ty2) noexcept(<expr>)' being compiled
-          with
-          [
-              _Pr=GameManager::CheckForStraights::<lambda_1>,
-              _Ty1=Game::Card &,
-              _Ty2=Game::Card &
-          ]
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,54):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
-      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
-      the template instantiation context (the oldest one first) is
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,39):
-          see reference to variable template 'const bool _Debug_lt_pred_order_check_noexcept<`GameManager::CheckForStraights'::`2'::<lambda_1> &,Game::Card &,Game::Card &,1>' being compiled
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,22):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
-      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
-      the template instantiation context (the oldest one first) is
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8369,26):
-          see reference to function template instantiation 'std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
-          with
-          [
-              _RanIt=Game::Card *,
-              _Pr=GameManager::CheckForStraights::<lambda_1>
-          ]
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,82):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
-      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,30):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
-      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,30):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
-      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,20):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
-      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
-      the template instantiation context (the oldest one first) is
-          C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,7):
-          see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,GameManager::CheckRoyaleFlush::<lambda_1>>(const _RanIt,const _RanIt,_Pr)' being compiled
-          with
-          [
-              _Ty=Game::Card,
-              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Game::Card>>>,
-              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8388,10):
-          see reference to function template instantiation 'void std::_Sort_unchecked<Game::Card*,_Fn>(_RanIt,_RanIt,__int64,_Pr)' being compiled
-          with
-          [
-              _Fn=GameManager::CheckRoyaleFlush::<lambda_1>,
-              _RanIt=Game::Card *,
-              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8358,18):
-          see reference to function template instantiation '_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)' being compiled
-          with
-          [
-              _BidIt=Game::Card *,
-              _RanIt=Game::Card *,
-              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8233,17):
-          see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,Game::Card&,Game::Card&>(GameManager::CheckRoyaleFlush::<lambda_1>&,_Ty1,_Ty2) noexcept(<expr>)' being compiled
-          with
-          [
-              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>,
-              _Ty1=Game::Card &,
-              _Ty2=Game::Card &
-          ]
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,54):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
-      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
-      the template instantiation context (the oldest one first) is
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,39):
-          see reference to variable template 'const bool _Debug_lt_pred_order_check_noexcept<`GameManager::CheckRoyaleFlush'::`2'::<lambda_1> &,Game::Card &,Game::Card &,1>' being compiled
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,22):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
-      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
-      the template instantiation context (the oldest one first) is
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8369,26):
-          see reference to function template instantiation 'std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
-          with
-          [
-              _RanIt=Game::Card *,
-              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>
-          ]
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,82):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
-      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,30):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
-      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,30):
-      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
-      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24):
-      while trying to match the argument list '(Game::Card, Game::Card)'
-  
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(170,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Player.cpp
+  Source.cpp
+  Generating Code...
+GameManager.obj : error LNK2005: "public: void __cdecl Dealer::CreateDeck(void)" (?CreateDeck@Dealer@@QEAAXXZ) already defined in Dealer.obj
+GameManager.obj : error LNK2005: "public: class Game::Card __cdecl Dealer::DrawCard(void)" (?DrawCard@Dealer@@QEAA?AVCard@Game@@XZ) already defined in Dealer.obj
+GameManager.obj : error LNK2005: "class std::vector<class Game::Card,class std::allocator<class Game::Card> > currentDeck" (?currentDeck@@3V?$vector@VCard@Game@@V?$allocator@VCard@Game@@@std@@@std@@A) already defined in Dealer.obj
+Player.obj : error LNK2005: "public: __cdecl Game::Bot::Bot(class Game::Card,class Game::Card)" (??0Bot@Game@@QEAA@VCard@1@0@Z) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: __cdecl Game::Player::Player(class Game::Card,class Game::Card)" (??0Player@Game@@QEAA@VCard@1@0@Z) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: __cdecl Game::User::User(class Game::Card,class Game::Card)" (??0User@Game@@QEAA@VCard@1@0@Z) already defined in GameManager.obj
+Player.obj : error LNK2005: "protected: int __cdecl Game::Player::Call(void)" (?Call@Player@Game@@IEAAHXZ) already defined in GameManager.obj
+Player.obj : error LNK2005: "protected: int __cdecl Game::Player::Check(void)" (?Check@Player@Game@@IEAAHXZ) already defined in GameManager.obj
+Player.obj : error LNK2005: "protected: int __cdecl Game::Player::Fold(void)" (?Fold@Player@Game@@IEAAHXZ) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: class Game::Card * __cdecl Game::Player::GetHand(void)" (?GetHand@Player@Game@@QEAAPEAVCard@2@XZ) already defined in GameManager.obj
+Player.obj : error LNK2005: "void __cdecl Game::PickAction(void)" (?PickAction@Game@@YAXXZ) already defined in GameManager.obj
+Player.obj : error LNK2005: "protected: int __cdecl Game::Player::Raise(int)" (?Raise@Player@Game@@IEAAHH@Z) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: void __cdecl Game::Player::RemoveChipsBet(void)" (?RemoveChipsBet@Player@Game@@QEAAXXZ) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: void __cdecl Game::Player::Reset(void)" (?Reset@Player@Game@@QEAAXXZ) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: virtual int __cdecl Game::Bot::SetActive(int)" (?SetActive@Bot@Game@@UEAAHH@Z) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: virtual int __cdecl Game::User::SetActive(int)" (?SetActive@User@Game@@UEAAHH@Z) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: void __cdecl Game::Player::SetHand(class Game::Card,class Game::Card)" (?SetHand@Player@Game@@QEAAXVCard@2@0@Z) already defined in GameManager.obj
+Player.obj : error LNK2005: "public: void __cdecl Game::Player::addChips(int)" (?addChips@Player@Game@@QEAAXH@Z) already defined in GameManager.obj
+GameManager.obj : error LNK2019: unresolved external symbol "public: __cdecl Game::Card::Card(void)" (??0Card@Game@@QEAA@XZ) referenced in function "void __cdecl `dynamic initializer for 'communityCards''(void)" (??__EcommunityCards@@YAXXZ)
+GameManager.obj : error LNK2001: unresolved external symbol "public: static class Game::Card * Game::Player::currentHand" (?currentHand@Player@Game@@2PAVCard@2@A)
+Player.obj : error LNK2001: unresolved external symbol "public: static class Game::Card * Game::Player::currentHand" (?currentHand@Player@Game@@2PAVCard@2@A)
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\x64\Debug\Poker++.exe : fatal error LNK1120: 2 unresolved externals

@@ -7,14 +7,7 @@ using namespace std;
 #include <string>
 namespace Game {
 
-    string name;
-    Card currentHand[2];  // Player's two-card hand
-    bool isActive;               // Is this player currently active?
-    bool hasChecked;             // Has this player checked?
-    int chips;                   // Total chips available
-    int chipsBet;                // Chips bet in this round
-    int highestBidThisRound;
-    bool hasFolded;
+    
 
     // Inspired by Jonah Gibson's code and adapted by Eugenio Morales
     Player::Player(Card card1, Card card2)
@@ -160,8 +153,6 @@ namespace Game {
         cout << "User Initialized \n";
     };
 
-    float confidence;
-    float greed;
 
 
     void PickAction()

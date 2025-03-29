@@ -8,7 +8,9 @@
 
 #include <algorithm>
 
-#include "Dealer.h"
+#include "Dealer.cpp"
+#include "Player.cpp"
+
 #include "string"
 using namespace std;
 using namespace Game;

@@ -40,6 +40,7 @@ namespace Game {
     // Bot class (inherits from Player)
     class Bot : public Player {
     public:
+        
         int SetActive(int highestBid) override;  // Override SetActive
         Bot(Card card1, Card card2);  // Constructor
     };
