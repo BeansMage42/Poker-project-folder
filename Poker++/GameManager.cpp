@@ -5,6 +5,9 @@
 #include <memory>
 #include <random>
 #include "GameManager.h"
+
+#include <algorithm>
+
 #include "Dealer.h"
 #include "string"
 using namespace std;
@@ -268,17 +271,21 @@ bool GameManager::CheckForStraights(Card* hand)
 {
 	int size = sizeof(communityCards) / sizeof(communityCards[0]);
 
-	vector<Card> cardsToScore(communityCards, communityCards + size);
+	vector<int> cardsToScore;
 
-	cardsToScore.push_back(hand[0]);
-	cardsToScore.push_back(hand[1]);
+	for (Card num : communityCards) {
+		cardsToScore.push_back(num.value);
+	}
+
+	cardsToScore.push_back(hand[0].value);
+	cardsToScore.push_back(hand[1].value);
 
 	sort(cardsToScore.begin(), cardsToScore.end());
 	
 	int count = 0;
 	for (int i = 0; i < size - 1; i++)
 	{
-		if (cardsToScore[i].value == (cardsToScore[i + 1].value - 1))
+		if (cardsToScore[i] == (cardsToScore[i + 1] - 1))
 		{
 			count++;
 		}
@@ -298,10 +305,16 @@ bool GameManager::CheckRoyaleFlush(Card* hand)
 {
 	int size = sizeof(communityCards) / sizeof(communityCards[0]);
 
-	vector<Card> cardsToScore(communityCards, communityCards + size);
+	vector<int> cardsToScore;
 
-	cardsToScore.push_back(hand[0]);
-	cardsToScore.push_back(hand[1]);
+	for (Card num : communityCards) {
+		cardsToScore.push_back(num.value);
+	}
+
+	cardsToScore.push_back(hand[0].value);
+	cardsToScore.push_back(hand[1].value);
+
+	sort(cardsToScore.begin(), cardsToScore.end());
 
 	if (!CheckForFlush(hand)) return false;
 	if (!CheckForStraights(hand)) return false;
@@ -309,7 +322,7 @@ bool GameManager::CheckRoyaleFlush(Card* hand)
 	sort(cardsToScore.begin(), cardsToScore.end());
 	
 
-	if (cardsToScore[7].value != 12) return false;
+	if (cardsToScore[7] != 12) return false;
 	return true;
 }
 
