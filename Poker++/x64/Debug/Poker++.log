@@ -1,71 +1,30 @@
-﻿  Card.cpp
-  GameManager.cpp
-C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(169,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+﻿  GameManager.cpp
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(165,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
   (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2427,31):
-      could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
-          Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
-              With the following template arguments:
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
-                  '_Ty1=Game::Card &'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
-                  '_Ty2=Game::Card &'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2429,48):
-              binary '<': 'Game::Card' does not define this operator or a conversion to a type acceptable to the predefined operator
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\list(1896,17):
-                  could be 'bool std::operator <(const std::list<_Ty,_Alloc> &,const std::list<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(2314,30):
-                  or       'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3294,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3288,17):
-                  or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3282,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3709,30):
-                  or       'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3703,30):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3645,17):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1943,17):
-                  or       'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1938,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1891,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4396,5):
-                  or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1852,5):
-                  or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(504,27):
-                  or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,20):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
+      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
+      while trying to match the argument list '(Game::Card, Game::Card)'
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
       the template instantiation context (the oldest one first) is
-          C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(280,2):
-          see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(const _RanIt,const _RanIt)' being compiled
+          C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,7):
+          see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,GameManager::CheckForStraights::<lambda_1>>(const _RanIt,const _RanIt,_Pr)' being compiled
           with
           [
               _Ty=Game::Card,
-              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Game::Card>>>
-          ]
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8393,10):
-          see reference to function template instantiation 'void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)' being compiled
-          with
-          [
               _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Game::Card>>>,
-              _Pr=std::less<void>
+              _Pr=GameManager::CheckForStraights::<lambda_1>
           ]
           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8388,10):
           see reference to function template instantiation 'void std::_Sort_unchecked<Game::Card*,_Fn>(_RanIt,_RanIt,__int64,_Pr)' being compiled
           with
           [
-              _Fn=std::less<void>,
+              _Fn=GameManager::CheckForStraights::<lambda_1>,
               _RanIt=Game::Card *,
-              _Pr=std::less<void>
+              _Pr=GameManager::CheckForStraights::<lambda_1>
           ]
           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8358,18):
           see reference to function template instantiation '_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)' being compiled
@@ -73,109 +32,38 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.3412
           [
               _BidIt=Game::Card *,
               _RanIt=Game::Card *,
-              _Pr=std::less<void>
+              _Pr=GameManager::CheckForStraights::<lambda_1>
           ]
           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8233,17):
-          see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,Game::Card&,Game::Card&>(std::less<void>&,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,Game::Card&,Game::Card&>(GameManager::CheckForStraights::<lambda_1>&,_Ty1,_Ty2) noexcept(<expr>)' being compiled
           with
           [
-              _Pr=std::less<void>,
+              _Pr=GameManager::CheckForStraights::<lambda_1>,
               _Ty1=Game::Card &,
               _Ty2=Game::Card &
           ]
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
   (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2427,31):
-      could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
-          Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
-              With the following template arguments:
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
-                  '_Ty1=Game::Card &'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
-                  '_Ty2=Game::Card &'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2429,48):
-              binary '<': 'Game::Card' does not define this operator or a conversion to a type acceptable to the predefined operator
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\list(1896,17):
-                  could be 'bool std::operator <(const std::list<_Ty,_Alloc> &,const std::list<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(2314,30):
-                  or       'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3294,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3288,17):
-                  or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3282,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3709,30):
-                  or       'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3703,30):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3645,17):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1943,17):
-                  or       'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1938,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1891,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4396,5):
-                  or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1852,5):
-                  or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(504,27):
-                  or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,54):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
+      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
+      while trying to match the argument list '(Game::Card, Game::Card)'
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
       the template instantiation context (the oldest one first) is
           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,39):
-          see reference to variable template 'const bool _Debug_lt_pred_order_check_noexcept<std::less<void> &,Game::Card &,Game::Card &,1>' being compiled
+          see reference to variable template 'const bool _Debug_lt_pred_order_check_noexcept<`GameManager::CheckForStraights'::`2'::<lambda_1> &,Game::Card &,Game::Card &,1>' being compiled
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,5): error C2056: illegal expression
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
   (compiling source file 'GameManager.cpp')
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16): error C3889: call to object of class type 'std::less<void>': no matching call operator found
-  (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2427,31):
-      could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
-          Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
-              With the following template arguments:
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
-                  '_Ty1=Game::Card &'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
-                  '_Ty2=Game::Card &'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2429,48):
-              binary '<': 'Game::Card' does not define this operator or a conversion to a type acceptable to the predefined operator
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\list(1896,17):
-                  could be 'bool std::operator <(const std::list<_Ty,_Alloc> &,const std::list<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(2314,30):
-                  or       'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3294,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3288,17):
-                  or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3282,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3709,30):
-                  or       'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3703,30):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3645,17):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1943,17):
-                  or       'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1938,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1891,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4396,5):
-                  or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1852,5):
-                  or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(504,27):
-                  or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,22):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
+      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
+      while trying to match the argument list '(Game::Card, Game::Card)'
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
       the template instantiation context (the oldest one first) is
           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8369,26):
@@ -183,137 +71,134 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.3412
           with
           [
               _RanIt=Game::Card *,
-              _Pr=std::less<void>
+              _Pr=GameManager::CheckForStraights::<lambda_1>
           ]
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
   (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2427,31):
-      could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76):
-          Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76):
-              With the following template arguments:
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76):
-                  '_Ty1=Game::Card &'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76):
-                  '_Ty2=Game::Card &'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2429,48):
-              binary '<': 'Game::Card' does not define this operator or a conversion to a type acceptable to the predefined operator
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\list(1896,17):
-                  could be 'bool std::operator <(const std::list<_Ty,_Alloc> &,const std::list<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(2314,30):
-                  or       'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3294,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3288,17):
-                  or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3282,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3709,30):
-                  or       'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3703,30):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3645,17):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1943,17):
-                  or       'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1938,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1891,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4396,5):
-                  or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1852,5):
-                  or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(504,27):
-                  or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,82):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
+      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76):
+      while trying to match the argument list '(Game::Card, Game::Card)'
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
   (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2427,31):
-      could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24):
-          Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24):
-              With the following template arguments:
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24):
-                  '_Ty1=Game::Card &'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24):
-                  '_Ty2=Game::Card &'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2429,48):
-              binary '<': 'Game::Card' does not define this operator or a conversion to a type acceptable to the predefined operator
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\list(1896,17):
-                  could be 'bool std::operator <(const std::list<_Ty,_Alloc> &,const std::list<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(2314,30):
-                  or       'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3294,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3288,17):
-                  or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3282,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3709,30):
-                  or       'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3703,30):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3645,17):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1943,17):
-                  or       'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1938,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1891,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4396,5):
-                  or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1852,5):
-                  or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(504,27):
-                  or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,30):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
+      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24):
+      while trying to match the argument list '(Game::Card, Game::Card)'
   
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24): error C2664: 'bool GameManager::CheckForStraights::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
   (compiling source file 'GameManager.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2427,31):
-      could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24):
-          Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24):
-              With the following template arguments:
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24):
-                  '_Ty1=Game::Card &'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24):
-                  '_Ty2=Game::Card &'
-              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(2429,48):
-              binary '<': 'Game::Card' does not define this operator or a conversion to a type acceptable to the predefined operator
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\list(1896,17):
-                  could be 'bool std::operator <(const std::list<_Ty,_Alloc> &,const std::list<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(2314,30):
-                  or       'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3294,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const ) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3288,17):
-                  or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3282,17):
-                  or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3709,30):
-                  or       'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3703,30):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3645,17):
-                  or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1943,17):
-                  or       'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1938,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1891,17):
-                  or       'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4396,5):
-                  or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1852,5):
-                  or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
-                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(504,27):
-                  or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,30):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(277,75):
+      see declaration of 'GameManager::CheckForStraights::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24):
+      while trying to match the argument list '(Game::Card, Game::Card)'
   
-  Source.cpp
-  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
+  (compiling source file 'GameManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,20):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
+      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
+      while trying to match the argument list '(Game::Card, Game::Card)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,14):
+      the template instantiation context (the oldest one first) is
+          C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,7):
+          see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,GameManager::CheckRoyaleFlush::<lambda_1>>(const _RanIt,const _RanIt,_Pr)' being compiled
+          with
+          [
+              _Ty=Game::Card,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Game::Card>>>,
+              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8388,10):
+          see reference to function template instantiation 'void std::_Sort_unchecked<Game::Card*,_Fn>(_RanIt,_RanIt,__int64,_Pr)' being compiled
+          with
+          [
+              _Fn=GameManager::CheckRoyaleFlush::<lambda_1>,
+              _RanIt=Game::Card *,
+              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8358,18):
+          see reference to function template instantiation '_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)' being compiled
+          with
+          [
+              _BidIt=Game::Card *,
+              _RanIt=Game::Card *,
+              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8233,17):
+          see reference to function template instantiation 'bool std::_Debug_lt_pred<_Pr&,Game::Card&,Game::Card&>(GameManager::CheckRoyaleFlush::<lambda_1>&,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+          with
+          [
+              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>,
+              _Ty1=Game::Card &,
+              _Ty2=Game::Card &
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
+  (compiling source file 'GameManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,54):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
+      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
+      while trying to match the argument list '(Game::Card, Game::Card)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1516,32):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(1523,39):
+          see reference to variable template 'const bool _Debug_lt_pred_order_check_noexcept<`GameManager::CheckRoyaleFlush'::`2'::<lambda_1> &,Game::Card &,Game::Card &,1>' being compiled
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
+  (compiling source file 'GameManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,22):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
+      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
+      while trying to match the argument list '(Game::Card, Game::Card)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8291,16):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8369,26):
+          see reference to function template instantiation 'std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
+          with
+          [
+              _RanIt=Game::Card *,
+              _Pr=GameManager::CheckRoyaleFlush::<lambda_1>
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
+  (compiling source file 'GameManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,82):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
+      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8295,76):
+      while trying to match the argument list '(Game::Card, Game::Card)'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
+  (compiling source file 'GameManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,30):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
+      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8306,24):
+      while trying to match the argument list '(Game::Card, Game::Card)'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24): error C2664: 'bool GameManager::CheckRoyaleFlush::<lambda_1>::operator ()(Game::Card *,Game::Card *) const': cannot convert argument 1 from 'Game::Card' to 'Game::Card *'
+  (compiling source file 'GameManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,30):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(313,75):
+      see declaration of 'GameManager::CheckRoyaleFlush::<lambda_1>::operator ()'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8320,24):
+      while trying to match the argument list '(Game::Card, Game::Card)'
+  

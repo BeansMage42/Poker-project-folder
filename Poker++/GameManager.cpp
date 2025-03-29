@@ -2,12 +2,8 @@
 
 
 
-
-#include <algorithm>    // std::random_shuffle
 #include <memory>
 #include <random>
-#include <vector>
-#include <algorithm>
 #include "GameManager.h"
 #include "Dealer.h"
 #include "string"
@@ -278,7 +274,7 @@ bool GameManager::CheckForStraights(Card* hand)
 	cardsToScore.push_back(hand[1]);
 
 	sort(cardsToScore.begin(), cardsToScore.end());
-
+	
 	int count = 0;
 	for (int i = 0; i < size - 1; i++)
 	{
@@ -311,6 +307,7 @@ bool GameManager::CheckRoyaleFlush(Card* hand)
 	if (!CheckForStraights(hand)) return false;
 
 	sort(cardsToScore.begin(), cardsToScore.end());
+	
 
 	if (cardsToScore[7].value != 12) return false;
 	return true;
