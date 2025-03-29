@@ -5,23 +5,45 @@ using namespace Game;
 #include <string>
 
 class User: public Player  {
-public:
-	void Input()
+    //code taken from jonahs final exam
+	int SetActive(int highestBid)
 	{
-		//if player presses enter
-			//StartGame()
-		//if player presses 1
-			//If player's bet matches previous
-				//Check()
-			//If player's bet does not match previous
-				//Call()
-		//if player presses 2
-			//Fold()
-		//if player presses 3
-			//Input amount
-			//Raise(amount)
-		//if player presses esc
-			//Quit application
+        
+        if (hasFolded) return 0;
+        if (chips == 0) return 0;
+        hasChecked = false;
+        highestBidThisRound = highestBid;
+        cout << "\n Your turn! You currently have: " << (chips - chipsBet) << " chips left and have bid " << chipsBet << " chips this round. \n";
+        cout << "\n Chose your action: \n 1: Check \n 2: Call \n 3: Raise \n 4: fold \n";
+        int action;
+        int amountOfChipsToAddToPot;
+        cin >> action;
+
+        switch (action)
+        {
+        default:
+
+            amountOfChipsToAddToPot = Check();
+            break;
+        case 2:
+
+            amountOfChipsToAddToPot = Call();
+            break;
+
+        case 3:
+            cout << "You would like to raise. How many chips above " << highestBidThisRound << " would you like to bid? \n";
+            int amountBid;
+            cin >> amountBid;
+            amountOfChipsToAddToPot = Raise(amountBid);
+            break;
+
+        case 4:
+
+            amountOfChipsToAddToPot = Fold();
+            break;
+        }
+        return amountOfChipsToAddToPot;
+
 	}
 
 	// Inspired by Jonah Gibson's code and adapted by Eugenio Morales

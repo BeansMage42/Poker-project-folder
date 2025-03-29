@@ -1,19 +1,26 @@
 #pragma once
-using namespace Game;
+
 #include <list>
 #include "Player.h"
 #include "Card.h"
+#include <string>
+using namespace Game;
 class GameManager
 {
 public:
-	void IncreasePot(int chips);
-	void PlayerOut();
+	GameManager();
 	float Score(Card* hand);
-	bool CheckForFlush();
-	bool CheckForStraight();
-	bool CheckForRoyalFlush();
-	bool CheckForFullHouse();
-	bool CheckForPair();
-	bool CheckForHighCard();
-	void CheckForWinner();
+	bool CheckForFlush(Card* hand);
+	bool CheckForStraights(Card* hand);
+	bool CheckRoyaleFlush(Card* hand);
+	int CheckForPairs(Card* hand);
+	float HighCard(Card* hand);
+	void CheckWinner();
+	void StartGame();
+	void DealNextCard();
+	string EvaluateCard(Card card);
+	string EvaluateHandType(float hand);
+	void NextMatch();
+	void NextTurn();
+	
 };

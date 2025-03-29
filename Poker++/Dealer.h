@@ -1,10 +1,10 @@
 #pragma once
 #include "Card.h"
-using namespace std;
+
+using namespace Game;
+
 class Dealer {
 public:
 	void CreateDeck();
 	Card DrawCard();
-
-
 };
