@@ -5,6 +5,7 @@ using namespace Game;
 
 class Dealer {
 public:
+	int deckSize;
 	void CreateDeck();
 	Card DrawCard();
 };
