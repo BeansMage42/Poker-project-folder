@@ -31,10 +31,10 @@ namespace Game {
 
     protected:
         // Protected method declarations (for player actions)
-        int Check();     // Player opts to check
-        int Raise(int amount);  // Player increases the bet
-        int Call();      // Player matches the current bet
-        int Fold();      // Player forfeits the hand
+        virtual int Check();     // Player opts to check
+        virtual int Raise(int amount);  // Player increases the bet
+        virtual int Call();      // Player matches the current bet
+        virtual int Fold();      // Player forfeits the hand
     };
 
     // Bot class (inherits from Player)
