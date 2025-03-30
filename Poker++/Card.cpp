@@ -1,15 +1,14 @@
-class Card {
-public:
-	int value;
-	int suit;
 
-	Card(int v, int s) {
+#include "Card.h"
+
+namespace Game {
+	Card::Card(int v, int s) {
 		value = v;
 		suit = s;
 	}
-	Card() {
-
+	Card::Card() 
+	{
+		value = 0;
+		suit = 0;
 	}
-
-
-};
+}

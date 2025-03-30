@@ -5,12 +5,7 @@ namespace Game {
 		int value;
 		int suit;
 
-		Card(int v, int s) {
-			value = v;
-			suit = s;
-		}
+		Card(int v, int s);
 		Card();
-
-
 	};
 }

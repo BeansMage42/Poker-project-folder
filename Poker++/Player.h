@@ -10,7 +10,7 @@ namespace Game {
     class Player {
     public:
         string name;
-        static Card currentHand[2];  // Player's two private cards
+        Card currentHand[2];  // Player's two private cards
         bool isActive;               // Indicates if it's this player's turn
         bool hasChecked;             // Tracks if player has checked this round
         int chips;                   // Total chips player has

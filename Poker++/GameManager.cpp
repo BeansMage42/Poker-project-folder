@@ -8,8 +8,8 @@
 
 #include <algorithm>
 
-#include "Dealer.cpp"
-#include "Player.cpp"
+#include "Dealer.h"
+#include "Player.h"
 
 #include "string"
 using namespace std;
@@ -44,7 +44,7 @@ void GameManager::StartGame()//Jonah
 	pot = 0;
 	highestBet = 0;
 	activePlayer = 0;
-	for (auto&& p : players) p->Reset();
+	//for (auto&& p : players) p->Reset();
 	dealer = std::make_unique<Dealer>();
 	dealer->CreateDeck();
 	players[0] = std::make_unique<User>(dealer->DrawCard(), dealer->DrawCard());
@@ -87,7 +87,7 @@ void GameManager::NextTurn()// Ryan Dean
 	//some of this code borrowed from jonahs midterm
 	else
 	{
-		activePlayer = (activePlayer + 1) % numOfPlayers;
+		activePlayer = (activePlayer + 1) % 4;
 		Card* ptr;
 		ptr = players[activePlayer]->GetHand();
 		std::cout << "\n it is " << players[activePlayer]->name << "'s turn";
