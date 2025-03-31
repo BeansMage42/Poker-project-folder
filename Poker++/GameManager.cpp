@@ -1,7 +1,7 @@
 
 
 
-
+using namespace std;
 #include <memory>
 #include <random>
 #include "GameManager.h"
@@ -12,12 +12,8 @@
 #include "Player.h"
 
 #include "string"
-using namespace std;
+
 using namespace Game;
-
-
-
-
 
 //std::unique_ptr<Card> communityCards[5];//stores info of cards in the center
 std::unique_ptr<Player> players[4];//stores info of cards in the center
@@ -45,7 +41,7 @@ void GameManager::StartGame()//Jonah
 	
 	pot = 20;
 	highestBet = 5;
-	activePlayer = 1;
+	activePlayer = 0;
 	//for (auto&& p : players) p->Reset();
 	dealer = std::make_unique<Dealer>();
 	dealer->CreateDeck();
@@ -98,25 +94,26 @@ void GameManager::NextTurn()// Ryan Dean
 				temp += players[a]->chipsBet;
 			}
 			pot = temp;
-			activePlayer = (activePlayer + 1) % 4;
+			
 		}
-
+		activePlayer = (activePlayer + 1) % 4;
 		bool allChecked = false;
 
 		if (activePlayer == 3)
 		{
-			cout << players[activePlayer]->name << " checking shit";
+			
 			for (auto&& p : players)
 			{
+				cout << p->name << " checking shit" << p->hasChecked;
 				if (!p->hasChecked)
 				{
-					cout << p->name << " Has not checked" << endl;
+					
 					allChecked = false;
 					break;
 				}
 				else
 				{
-					cout << "all checked" << endl;
+					
 					allChecked = true;
 				}
 			}
@@ -141,7 +138,7 @@ void GameManager::NextTurn()// Ryan Dean
 		if (cardsDisplayed == 5 || numFolded == 3)
 		{
 			CheckWinner();
-			NextMatch();
+			
 		}
 		else {
 			loopCount++;
@@ -160,20 +157,22 @@ void GameManager::CheckWinner()//jonah gibson
 
 	for (int i = 1; i < 4; i++)
 	{
-		players[i]->RemoveChipsBet();
+		
 		if (!players[i]->hasFolded && players[i]->chips > 0)
 		{
+		cout << players[i]->hasFolded << " foldcheck" << endl;
 			float newScore = Score(players[i]->GetHand());
 			if (newScore > highestScore) {
 				winningPlayer = i;
 				highestScore = newScore;
 			}
 		}
-
+		players[i]->RemoveChipsBet();
 	}
 
 	cout << players[winningPlayer]->name << " won with a " << EvaluateHandType(highestScore) << " earning " << pot << " chips\n";
 	players[winningPlayer]->addChips(pot);
+	NextMatch();
 }
 
 void GameManager::NextMatch()//Jonah Gibson

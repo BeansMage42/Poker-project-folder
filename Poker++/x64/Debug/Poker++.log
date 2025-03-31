@@ -1,3 +1,23 @@
 ﻿  GameManager.cpp
-C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(206,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  Poker++.vcxproj -> C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\x64\Debug\Poker++.exe
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.cpp(205,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Player.cpp
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.h(21,9): error C3646: 'EvaluateCard': unknown override specifier
+  (compiling source file 'Player.cpp')
+  
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.h(21,21): error C2059: syntax error: '('
+  (compiling source file 'Player.cpp')
+  
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.h(21,32): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.h(22,9): error C3646: 'EvaluateHandType': unknown override specifier
+  (compiling source file 'Player.cpp')
+  
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.h(22,25): error C2059: syntax error: '('
+  (compiling source file 'Player.cpp')
+  
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\GameManager.h(22,37): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Player.cpp')
+  
+C:\Users\kitte\Desktop\school work\CC++\C++asignment 1\Poker++ project folder\Poker++\Player.cpp(187,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...

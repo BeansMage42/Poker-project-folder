@@ -1,11 +1,13 @@
 
 
 // Player.cpp and player.h were primarily developed by Eugenio Morales
-using namespace std;
+
 #include "Card.h"
 #include "Player.h"
 #include <string>
 #include <random>
+#include <ctime>
+using namespace std;
 namespace Game {
 
     
@@ -23,12 +25,13 @@ namespace Game {
         currentHandScore = 0;
         cout << "Player" << isActive << "Initialized \n";
     }
-    void Player::RemoveChipsBet()
+    void Player::RemoveChipsBet()//Jonah Gibson
     {
         hasFolded = false;
         chips -= chipsBet;
     }
-    void Player::SetHand(Card card1, Card card2) {
+    void Player::SetHand(Card card1, Card card2) 
+    {
         currentHand[0] = card1;
         currentHand[1] = card2;
         // Assign the two cards to this player's hand
@@ -43,7 +46,8 @@ namespace Game {
         // Increase player's chip count by the given amount
     }
 
-    void Player::Reset() {
+    void Player::Reset() //Rya Dean
+    {
         chips = 0;
         chipsBet = 0;
         highestBidThisRound = 0;
@@ -171,8 +175,8 @@ namespace Game {
         name = "bot " + std::to_string(botNum);
         cout << name << "Bot Initialized \n";
     }
-    //jonah gibson
-    int Bot::SetActive(int highestBid, float score)
+    
+    int Bot::SetActive(int highestBid, float score)//jonah gibson
     {
       
         highestBidThisRound = highestBid;

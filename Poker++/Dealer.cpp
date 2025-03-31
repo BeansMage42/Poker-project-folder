@@ -30,7 +30,7 @@ Card Dealer::DrawCard()
 	int index = rand() % deckSize;
 	Card temp = currentDeck.at(index);
 	//cout << "Drawing card at index: " << index << endl;
-	currentDeck.erase(currentDeck.begin() + index-1);
+	currentDeck.erase(currentDeck.begin() + index);
 	deckSize--;
 
 	return temp;
