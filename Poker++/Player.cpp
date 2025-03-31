@@ -46,7 +46,7 @@ namespace Game {
         // Increase player's chip count by the given amount
     }
 
-    void Player::Reset() //Rya Dean
+    void Player::Reset() //Ryan Dean
     {
         chips = 0;
         chipsBet = 0;
@@ -227,7 +227,7 @@ namespace Game {
                 }
                 else if (temp >= 2)
                 {
-                    choice = 2;
+                    choice = 3;
                 }
                 else {
                     choice = 1;

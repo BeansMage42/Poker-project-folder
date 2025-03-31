@@ -18,8 +18,8 @@ public:
 	void CheckWinner();
 	void StartGame();
 	void DealNextCard();
-	string EvaluateCard(Card card);
-	string EvaluateHandType(float hand);
+	std::string EvaluateCard(Card card);
+	std::string EvaluateHandType(float hand);
 	void NextMatch();
 	void NextTurn();
 	

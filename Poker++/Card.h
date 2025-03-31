@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CARD_H
+#define CARD_H
+
 namespace Game {
 	class Card {
 	public:
@@ -9,3 +11,4 @@ namespace Game {
 		Card();
 	};
 }
+#endif

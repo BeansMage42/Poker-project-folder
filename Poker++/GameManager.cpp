@@ -67,9 +67,9 @@ void GameManager::NextTurn()// Ryan Dean
 {
 	
 
-	//some of this code borrowed from jonahs midterm
 	
-		if (!players[activePlayer]->hasFolded) {
+	
+		if (!players[activePlayer]->hasFolded) {//some of this code borrowed from jonahs midterm
 			Card* ptr;
 			ptr = players[activePlayer]->GetHand();
 			std::cout << "\n it is " << players[activePlayer]->name << "'s turn";
@@ -104,7 +104,7 @@ void GameManager::NextTurn()// Ryan Dean
 			
 			for (auto&& p : players)
 			{
-				cout << p->name << " checking shit" << p->hasChecked;
+				
 				if (!p->hasChecked)
 				{
 					
@@ -160,7 +160,7 @@ void GameManager::CheckWinner()//jonah gibson
 		
 		if (!players[i]->hasFolded && players[i]->chips > 0)
 		{
-		cout << players[i]->hasFolded << " foldcheck" << endl;
+		
 			float newScore = Score(players[i]->GetHand());
 			if (newScore > highestScore) {
 				winningPlayer = i;
@@ -169,7 +169,11 @@ void GameManager::CheckWinner()//jonah gibson
 		}
 		players[i]->RemoveChipsBet();
 	}
-
+	cout << "community cards: ";
+	for (Card c : communityCards) {
+		cout << EvaluateCard(c) << " , ";
+	}
+	cout << "\n your hand " << EvaluateCard(players[0]->GetHand()[0]) << " , " << EvaluateCard(players[0]->GetHand()[1]) << endl;
 	cout << players[winningPlayer]->name << " won with a " << EvaluateHandType(highestScore) << " earning " << pot << " chips\n";
 	players[winningPlayer]->addChips(pot);
 	NextMatch();
