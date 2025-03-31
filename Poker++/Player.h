@@ -17,9 +17,10 @@ namespace Game {
         int chipsBet;                // Chips bet in the current round
         int highestBidThisRound;
         bool hasFolded;
+        float currentHandScore;
 
         // Public method declarations
-        virtual int SetActive(int highestBid) = 0;  // Set this player as the active one
+        virtual int SetActive(int highestBid, float score) = 0;  // Set this player as the active one
         void SetHand(Card card1, Card card2);        // Assign the player's two cards
         Card* GetHand();                            // Return the player's current hand
         void addChips(int chipsAdd);                // Add chips to player's total
@@ -40,15 +41,15 @@ namespace Game {
     // Bot class (inherits from Player)
     class Bot : public Player {
     public:
-        
-        int SetActive(int highestBid) override;  // Override SetActive
+        //static int botNum;
+        int SetActive(int highestBid, float score) override;  // Override SetActive
         Bot(Card card1, Card card2);  // Constructor
     };
 
     // User class (inherits from Player)
     class User : public Player {
     public:
-        int SetActive(int highestBid) override final;  // Override and finalize SetActive
+        int SetActive(int highestBid, float score = 0) override final;  // Override and finalize SetActive
         User(Card card1, Card card2);  // Constructor
     };
 }

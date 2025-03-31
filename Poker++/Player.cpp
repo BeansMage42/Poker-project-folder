@@ -5,6 +5,7 @@ using namespace std;
 #include "Card.h"
 #include "Player.h"
 #include <string>
+#include <random>
 namespace Game {
 
     
@@ -19,7 +20,7 @@ namespace Game {
         chipsBet = 5;
         chips = 100;
         highestBidThisRound = 5;
-
+        currentHandScore = 0;
         cout << "Player" << isActive << "Initialized \n";
     }
     void Player::RemoveChipsBet()
@@ -61,6 +62,7 @@ namespace Game {
     {
         cout << name << " Checked! \n";
         hasChecked = true;
+        
         return 0;
     }
     //sections of this code is taken from jonah gibsons midterm
@@ -70,12 +72,12 @@ namespace Game {
         if ((highestBidThisRound + raiseAmount) > chips)
         {
             cout << "you dont have enough chips to raise that much, try a different action! \n";
-            return SetActive(highestBidThisRound); //loops so the player can choose new input
+            return SetActive(highestBidThisRound, currentHandScore); //loops so the player can choose new input
         }
         else
         {
 
-            chips += raiseAmount;
+            chipsBet += raiseAmount;
             cout << name << " Raised by " << raiseAmount << " to " << chipsBet << endl;
             return chipsBet;
         }
@@ -88,12 +90,12 @@ namespace Game {
         if (highestBidThisRound > chips)
         {
             cout << "\n you dont have enough chips to call, try a different action! \n";
-            return SetActive(highestBidThisRound);
+            return SetActive(highestBidThisRound, currentHandScore);
         }
         else
         {
             chipsBet = highestBidThisRound;
-
+            cout << "you have now bid" << chipsBet;
             return chipsBet;
         }
     }
@@ -102,11 +104,12 @@ namespace Game {
     {
         cout << name << " has folded! \n";
         hasFolded = true;
+        hasChecked = true;
         return 0;
     }
 
     //code taken from jonahs final exam
-    int User::SetActive(int highestBid)
+    int User::SetActive(int highestBid, float score)
     {
 
         if (hasFolded) return 0;
@@ -156,15 +159,147 @@ namespace Game {
 
 
 
-
+    int minHandscore;
+    static int botNum;
     // Inspired by Jonah Gibson's code and adapted by Eugenio Morales
     Bot::Bot(Card card1, Card card2) : Player(card1, card2)
     {
-        name = "bot";
+        std::random_device rd;  // Seed from hardware
+        std::mt19937 gen(rd());
+        botNum++;
+        minHandscore = rand() % (7) +2;
+        name = "bot " + std::to_string(botNum);
         cout << name << "Bot Initialized \n";
     }
-    int Bot::SetActive(int highestBid)
+    //jonah gibson
+    int Bot::SetActive(int highestBid, float score)
     {
+      
+        highestBidThisRound = highestBid;
+        currentHandScore = score;
+        int choice = 0;
+        std::random_device rd;  // Seed from hardware
+        std::mt19937 gen(rd());
+        int temp = rand() % (4 + 1) + score;
+        if (currentHandScore < minHandscore)
+        {
+            
+            if (temp > 6)
+            {
+                temp = rand() % (5);
+                if (temp >= 3)
+                {
+                    choice = 1;
+                }
+                else if (temp >=2)
+                {
+                    choice = 2;
+                }
+                else choice = 4;
+
+            }
+            else 
+            {
+                temp = rand() % (5);
+                if (temp >= 2)
+                {
+                    choice = 4;
+                }
+                else choice = 1;
+            }
+        }
+        else 
+        {
+            if (score >= 8) 
+            {
+                choice = 3;
+            }
+            else 
+            {
+                temp = rand()%6;
+                if (temp >= 4) 
+                {
+                    choice = 2;
+                }
+                else if (temp >= 2)
+                {
+                    choice = 2;
+                }
+                else {
+                    choice = 1;
+                }
+            }
+        }
+        int amountToRaiseBy = (highestBid + 10) - chipsBet;
+        if (choice == 2 || choice == 3) 
+        {
+            int chipsRemainingToBet = chips - chipsBet;
+            if (chipsRemainingToBet == 0) {
+                choice = 0;
+            }
+            if (choice == 2 && highestBid == chipsBet) choice = 3;
+            if (highestBid > chips && highestBid != chipsBet)
+            {
+                temp = rand() % 5;
+                if (temp >= 2)choice = 0;
+                else choice = 4;
+            }
+            if (choice == 3 && (highestBid + 10) > chipsRemainingToBet) 
+            {
+                temp = rand() % 5;
+                if (temp >= 2)choice = 0;
+                else choice = 4;
+            }
+            
+
+        }
+
+        if (choice == 2) 
+        {
+            temp = rand() % 3;
+            if (temp >= 2)
+            {
+                choice = 0;
+            }
+
+        }
+
+        if (highestBid > 50 && currentHandScore < 5)
+        {
+            temp = rand() % 3;
+            if (temp >= 2)
+            {
+                choice = 0;
+            }
+            else choice = 4;
+        }
+        int amountOfChipsToAddToPot;
+       
+
+        switch (choice)
+        {
+        default:
+
+            amountOfChipsToAddToPot = Check();
+            break;
+        case 2:
+
+            amountOfChipsToAddToPot = Call();
+            break;
+
+        case 3:
+            
+            amountOfChipsToAddToPot = Raise(amountToRaiseBy);
+            break;
+
+        case 4:
+
+            amountOfChipsToAddToPot = Fold();
+            break;
+        }
+        return amountOfChipsToAddToPot;
+
+
         return 0;
     }
 };

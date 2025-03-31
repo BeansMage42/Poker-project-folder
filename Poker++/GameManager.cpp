@@ -29,6 +29,7 @@ int pot;//total cumulative amount of chips bet this match
 int highestBet;//highest bet this match for players trying to call
 int activePlayer;//index of the currently active player for turn order
 int numOfPlayers;//number of players in the game
+int loopCount = 0;
 //declarations
 
 //sections of this code is taken from jonah gibsons midterm
@@ -41,18 +42,23 @@ GameManager::GameManager()
 }
 void GameManager::StartGame()//Jonah
 {
-	pot = 0;
-	highestBet = 0;
-	activePlayer = 0;
+	
+	pot = 20;
+	highestBet = 5;
+	activePlayer = 1;
 	//for (auto&& p : players) p->Reset();
 	dealer = std::make_unique<Dealer>();
 	dealer->CreateDeck();
+	for (int i = 0; i < 5; i++) {
+		communityCards[i] = dealer->DrawCard();
+	}
 	players[0] = std::make_unique<User>(dealer->DrawCard(), dealer->DrawCard());
 
 	for (int x = 1; x < 4; x++)
 	{
 		players[x] = std::make_unique<Bot>(dealer->DrawCard(), dealer->DrawCard());
 	}
+	DealNextCard();
 	DealNextCard();
 	DealNextCard();
 	NextTurn();
@@ -63,59 +69,88 @@ void GameManager::DealNextCard()//Jonah Gibson
 }
 void GameManager::NextTurn()// Ryan Dean
 {
-	bool allChecked;
-	for (auto&& p : players)
-	{
-		if (!p->hasChecked)
-		{
-			allChecked = false;
-			break;
-		}
-		else
-		{
-			allChecked = true;
-		}
-	}
+	
 
-	if (allChecked) DealNextCard();
-
-	if (cardsDisplayed == 5 || activePlayer == numOfPlayers - 1)
-	{
-		CheckWinner();
-		NextMatch();
-	}
 	//some of this code borrowed from jonahs midterm
-	else
-	{
-		activePlayer = (activePlayer + 1) % 4;
-		Card* ptr;
-		ptr = players[activePlayer]->GetHand();
-		std::cout << "\n it is " << players[activePlayer]->name << "'s turn";
-		std::cout << "\n Current pot = " << pot;
-		std::cout << "\n Revealed cards are: ";
-		for (int l = 0; l < cardsDisplayed; l++)
-		{
+	
+		if (!players[activePlayer]->hasFolded) {
+			Card* ptr;
+			ptr = players[activePlayer]->GetHand();
+			std::cout << "\n it is " << players[activePlayer]->name << "'s turn";
+			std::cout << "\n Current pot = " << pot;
+			std::cout << "\n Revealed cards are: ";
+			for (int l = 0; l < cardsDisplayed; l++)
+			{
 
-			std::cout << EvaluateCard(communityCards[l]) << " , ";
+				std::cout << EvaluateCard(communityCards[l]) << " , ";
+			}
+			std::cout << "\n Your hand is: " << EvaluateCard(ptr[0]) << " and " << EvaluateCard(ptr[1]);
+			std::cout << "\n the highest bet this round is " << highestBet << "\n";
+			int bet = players[activePlayer]->SetActive(highestBet, Score(ptr));
+			if (bet > highestBet) highestBet = bet;
+			//recalculates the total chips bet this round
+			//done this way so the player class wont need a reference to the main class
+			//and so that the highest bet can be recorded easier
+			int temp = 0;
+			for (int a = 0; a < 4; a++)
+			{
+
+				temp += players[a]->chipsBet;
+			}
+			pot = temp;
+			activePlayer = (activePlayer + 1) % 4;
 		}
-		std::cout << "\n Your hand is: " << EvaluateCard(ptr[0]) << " and " << EvaluateCard(ptr[1]);
-		std::cout << "\n the highest bet this round is " << highestBet << "\n";
 
-		int bet = players[activePlayer]->SetActive(highestBet);
-		if (bet > highestBet) highestBet = bet;
-		//recalculates the total chips bet this round
-		//done this way so the player class wont need a reference to the main class
-		//and so that the highest bet can be recorded easier
-		int temp = 0;
-		for (int a = 0; a < 4; a++)
+		bool allChecked = false;
+
+		if (activePlayer == 3)
 		{
-
-			temp += players[a]->chipsBet;
+			cout << players[activePlayer]->name << " checking shit";
+			for (auto&& p : players)
+			{
+				if (!p->hasChecked)
+				{
+					cout << p->name << " Has not checked" << endl;
+					allChecked = false;
+					break;
+				}
+				else
+				{
+					cout << "all checked" << endl;
+					allChecked = true;
+				}
+			}
+			for (auto&& p : players)
+			{
+				if (!p->hasFolded) {
+					p->hasChecked = false;
+				}
+			}
 		}
-		pot = temp;
-		NextTurn();
-	}
+		int numFolded = 0;
+		for (auto&& p : players)
+		{
+			if (p->hasFolded)
+			{
+				numFolded++;
+			}
+		}
 
+		if (allChecked) DealNextCard();
+
+		if (cardsDisplayed == 5 || numFolded == 3)
+		{
+			CheckWinner();
+			NextMatch();
+		}
+		else {
+			loopCount++;
+			if (loopCount >= 100) return;
+
+			NextTurn();
+
+
+		}
 }
 void GameManager::CheckWinner()//jonah gibson
 {
@@ -143,8 +178,9 @@ void GameManager::CheckWinner()//jonah gibson
 
 void GameManager::NextMatch()//Jonah Gibson
 {
+	cout << "Starting next match";
 	highestBet = 5;
-	cardsDisplayed = 2;
+	cardsDisplayed = 3;
 	dealer->CreateDeck();
 	for (int x = 0; x < 5; x++) {
 		communityCards[x] = dealer->DrawCard();
@@ -339,6 +375,7 @@ string GameManager::EvaluateCard(Card card)
 {
 	int rank = card.value;
 	int suit = card.suit;
+	//cout << "card rank " << rank << " card suit " << suit << endl;
 	string suitName;
 	string rankName;
 
